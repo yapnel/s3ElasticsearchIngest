@@ -7,6 +7,7 @@ This python script is used for ingesting documents stored in the ECS S3 buckets 
 3) Pull the objects for the newly created files from S3 in binary format
 4) Encode the the data stream into Base64 encoding
 5) Performs a POST to the Elasticsearch endpoint with the pipeline transformation
+6) Update the timestamp file with the latest date and time
 
 # How to use the script
 Create an .env file for the below key/value pairs. These keys are used in the s3ingest.py at runtime
